@@ -1,12 +1,12 @@
 {
-    "name": "mwpd/basic-scaffold",
+    "name": "nickdavis/basic-scaffold",
     "description": "Basic plugin boilerplate code for quick scaffolding.",
     "type": "wordpress-plugin",
     "license": "MIT",
     "authors": [
         {
-            "name": "Alain Schlesser",
-            "email": "alain.schlesser@gmail.com"
+            "name": "Nick Davis",
+            "email": "nick@iamnickdavis.com"
         }
     ],
     "require": {},
@@ -18,12 +18,12 @@
     },
     "autoload": {
         "psr-4": {
-            "MWPD\\BasicScaffold\\": "src/"
+            "NickDavis\\BasicScaffold\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "MWPD\\BasicScaffold\\Tests\\": "tests/php/"
+            "NickDavis\\BasicScaffold\\Tests\\": "tests/php/"
         }
     }
 }

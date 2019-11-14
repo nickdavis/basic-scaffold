@@ -1,10 +1,10 @@
 <?php
 
-namespace MWPD\BasicScaffold\Tests\Integration;
+namespace NickDavis\BasicScaffold\Tests\Integration;
 
-use MWPD\BasicScaffold\Infrastructure\View\TemplatedView;
-use MWPD\BasicScaffold\Infrastructure\View\TemplatedViewFactory;
-use MWPD\BasicScaffold\Tests\ViewHelper;
+use NickDavis\BasicScaffold\Infrastructure\View\TemplatedView;
+use NickDavis\BasicScaffold\Infrastructure\View\TemplatedViewFactory;
+use NickDavis\BasicScaffold\Tests\ViewHelper;
 
 final class TemplatedViewTest extends TestCase {
 

@@ -1,9 +1,9 @@
 <?php
 
-namespace MWPD\BasicScaffold\Tests\Unit;
+namespace NickDavis\BasicScaffold\Tests\Unit;
 
-use MWPD\BasicScaffold\Infrastructure\View\TemplatedViewFactory;
-use MWPD\BasicScaffold\Infrastructure\ViewFactory;
+use NickDavis\BasicScaffold\Infrastructure\View\TemplatedViewFactory;
+use NickDavis\BasicScaffold\Infrastructure\ViewFactory;
 
 final class TemplatedViewFactoryTest extends TestCase {
 

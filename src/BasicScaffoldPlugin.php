@@ -1,18 +1,18 @@
 <?php declare( strict_types=1 );
 
 /**
- * MWPD Basic Plugin Scaffold.
+ * Basic Scaffold.
  *
- * @package   MWPD\BasicScaffold
- * @author    Alain Schlesser <alain.schlesser@gmail.com>
+ * @package   NickDavis\BasicScaffold
+ * @author    Nick Davis <nick@iamnickdavis.com>
  * @license   MIT
- * @link      https://www.mwpd.io/
- * @copyright 2019 Alain Schlesser
+ * @link      https://iamnickdavis.com/
+ * @copyright 2019 Nick Davis
  */
 
-namespace MWPD\BasicScaffold;
+namespace NickDavis\BasicScaffold;
 
-use MWPD\BasicScaffold\Infrastructure\{
+use NickDavis\BasicScaffold\Infrastructure\{
 	ServiceBasedPlugin,
 	View\TemplatedViewFactory,
 	ViewFactory
@@ -156,8 +156,8 @@ final class BasicScaffoldPlugin extends ServiceBasedPlugin {
 	 * These are provided so that if multiple plugins use the same boilerplate
 	 * code, there hooks and service identifiers are scoped and don't clash.
 	 */
-	protected const HOOK_PREFIX    = 'mwpd.basic_scaffold.';
-	protected const SERVICE_PREFIX = 'mwpd.basic_scaffold.';
+	protected const HOOK_PREFIX    = 'nd.basic_scaffold.';
+	protected const SERVICE_PREFIX = 'nd.basic_scaffold.';
 
 	/*
 	 * Service identifiers we know about.

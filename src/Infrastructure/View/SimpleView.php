@@ -1,22 +1,22 @@
 <?php declare( strict_types=1 );
 
 /**
- * MWPD Basic Plugin Scaffold.
+ * Basic Scaffold.
  *
- * @package   MWPD\BasicScaffold
- * @author    Alain Schlesser <alain.schlesser@gmail.com>
+ * @package   NickDavis\BasicScaffold
+ * @author    Nick Davis <nick@iamnickdavis.com>
  * @license   MIT
- * @link      https://www.mwpd.io/
- * @copyright 2019 Alain Schlesser
+ * @link      https://iamnickdavis.com/
+ * @copyright 2019 Nick Davis
  */
 
-namespace MWPD\BasicScaffold\Infrastructure\View;
+namespace NickDavis\BasicScaffold\Infrastructure\View;
 
-use MWPD\BasicScaffold\Exception\FailedToLoadView;
-use MWPD\BasicScaffold\Exception\InvalidContextProperty;
-use MWPD\BasicScaffold\Exception\InvalidPath;
-use MWPD\BasicScaffold\Infrastructure\View;
-use MWPD\BasicScaffold\Infrastructure\ViewFactory;
+use NickDavis\BasicScaffold\Exception\FailedToLoadView;
+use NickDavis\BasicScaffold\Exception\InvalidContextProperty;
+use NickDavis\BasicScaffold\Exception\InvalidPath;
+use NickDavis\BasicScaffold\Infrastructure\View;
+use NickDavis\BasicScaffold\Infrastructure\ViewFactory;
 use Throwable;
 
 /**

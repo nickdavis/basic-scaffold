@@ -1,8 +1,8 @@
 <?php
 
-namespace MWPD\BasicScaffold\Tests\Unit;
+namespace NickDavis\BasicScaffold\Tests\Unit;
 
-use MWPD\BasicScaffold\Infrastructure\Injector\InjectionChain;
+use NickDavis\BasicScaffold\Infrastructure\Injector\InjectionChain;
 
 final class InjectionChainTest extends TestCase {
 

@@ -1,10 +1,10 @@
 <?php
 
-namespace MWPD\BasicScaffold\Tests\Integration;
+namespace NickDavis\BasicScaffold\Tests\Integration;
 
-use MWPD\BasicScaffold\Infrastructure\View\SimpleView;
-use MWPD\BasicScaffold\Infrastructure\View\SimpleViewFactory;
-use MWPD\BasicScaffold\Tests\ViewHelper;
+use NickDavis\BasicScaffold\Infrastructure\View\SimpleView;
+use NickDavis\BasicScaffold\Infrastructure\View\SimpleViewFactory;
+use NickDavis\BasicScaffold\Tests\ViewHelper;
 
 final class SimpleViewTest extends TestCase {
 

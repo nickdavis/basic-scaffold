@@ -1,32 +1,32 @@
 <?php
 /**
- * MWPD Basic Plugin Scaffold.
+ * Basic Scaffold.
  *
- * @package   MWPD\BasicScaffold
- * @author    Alain Schlesser <alain.schlesser@gmail.com>
+ * @package   NickDavis\BasicScaffold
+ * @author    Nick Davis <nick@iamnickdavis.com>
  * @license   MIT
- * @link      https://www.mwpd.io/
- * @copyright 2019 Alain Schlesser
+ * @link      https://iamnickdavis.com/
+ * @copyright 2019 Nick Davis
  *
  *------------------------------------------------------------------------------
  *-- 1. Provide the plugin meta information that WordPress needs.             --
  *------------------------------------------------------------------------------
  *
  * @wordpress-plugin
- * Plugin Name:  MWPD Basic Plugin Scaffold
- * Plugin URI:   https://www.mwpd.io/
- * Description:  Basic plugin scaffold for the "Modern WordPress Plugin Development" book,
+ * Plugin Name:  Basic Scaffold
+ * Plugin URI:   https://iamnickdavis.com/
+ * Description:  Basic plugin scaffold,
  * Version:      0.1.0
  * Requires PHP: 7.2
- * Author:       Alain Schlesser <alain.schlesser@gmail.com>
+ * Author:       Nick Davis <nick@iamnickdavis.com>
  * Author URI:   https://www.alainschlesser.com/
- * Text Domain:  mwpd-basic
+ * Text Domain:  nd-basic-scaffold
  * Domain Path:  /languages
  * License:      MIT
  * License URI:  https://opensource.org/licenses/MIT
  */
 
-namespace MWPD\BasicScaffold;
+namespace NickDavis\BasicScaffold;
 
 /*
  * This is the plugin's bootstrap file. It serves three main purposes:

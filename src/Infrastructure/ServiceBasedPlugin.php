@@ -1,19 +1,19 @@
 <?php declare( strict_types=1 );
 
 /**
- * MWPD Basic Plugin Scaffold.
+ * Basic Scaffold.
  *
- * @package   MWPD\BasicScaffold
- * @author    Alain Schlesser <alain.schlesser@gmail.com>
+ * @package   NickDavis\BasicScaffold
+ * @author    Nick Davis <nick@iamnickdavis.com>
  * @license   MIT
- * @link      https://www.mwpd.io/
- * @copyright 2019 Alain Schlesser
+ * @link      https://iamnickdavis.com/
+ * @copyright 2019 Nick Davis
  */
 
-namespace MWPD\BasicScaffold\Infrastructure;
+namespace NickDavis\BasicScaffold\Infrastructure;
 
-use MWPD\BasicScaffold\Exception\InvalidService;
-use MWPD\BasicScaffold\Infrastructure\ServiceContainer\LazilyInstantiatedService;
+use NickDavis\BasicScaffold\Exception\InvalidService;
+use NickDavis\BasicScaffold\Infrastructure\ServiceContainer\LazilyInstantiatedService;
 
 /**
  * This abstract base plugin provides all the boilerplate code for working with

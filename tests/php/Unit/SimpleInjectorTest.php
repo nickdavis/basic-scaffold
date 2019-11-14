@@ -1,11 +1,11 @@
 <?php
 
-namespace MWPD\BasicScaffold\Tests\Unit;
+namespace NickDavis\BasicScaffold\Tests\Unit;
 
-use MWPD\BasicScaffold\Exception\FailedToMakeInstance;
-use MWPD\BasicScaffold\Infrastructure\Injector;
-use MWPD\BasicScaffold\Infrastructure\Injector\SimpleInjector;
-use MWPD\BasicScaffold\Tests\Fixture;
+use NickDavis\BasicScaffold\Exception\FailedToMakeInstance;
+use NickDavis\BasicScaffold\Infrastructure\Injector;
+use NickDavis\BasicScaffold\Infrastructure\Injector\SimpleInjector;
+use NickDavis\BasicScaffold\Tests\Fixture;
 use stdClass;
 
 final class SimpleInjectorTest extends TestCase {

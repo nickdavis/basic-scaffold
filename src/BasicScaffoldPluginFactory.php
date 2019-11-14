@@ -1,18 +1,18 @@
 <?php declare( strict_types=1 );
 
 /**
- * MWPD Basic Plugin Scaffold.
+ * Basic Scaffold.
  *
- * @package   MWPD\BasicScaffold
- * @author    Alain Schlesser <alain.schlesser@gmail.com>
+ * @package   NickDavis\BasicScaffold
+ * @author    Nick Davis <nick@iamnickdavis.com>
  * @license   MIT
- * @link      https://www.mwpd.io/
- * @copyright 2019 Alain Schlesser
+ * @link      https://iamnickdavis.com/
+ * @copyright 2019 Nick Davis
  */
 
-namespace MWPD\BasicScaffold;
+namespace NickDavis\BasicScaffold;
 
-use MWPD\BasicScaffold\Infrastructure\Plugin;
+use NickDavis\BasicScaffold\Infrastructure\Plugin;
 
 /**
  * The plugin factory is responsible for instantiating the plugin and returning

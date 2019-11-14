@@ -1,20 +1,20 @@
 <?php declare( strict_types=1 );
 
 /**
- * MWPD Basic Plugin Scaffold.
+ * Basic Scaffold.
  *
- * @package   MWPD\BasicScaffold
- * @author    Alain Schlesser <alain.schlesser@gmail.com>
+ * @package   NickDavis\BasicScaffold
+ * @author    Nick Davis <nick@iamnickdavis.com>
  * @license   MIT
- * @link      https://www.mwpd.io/
- * @copyright 2019 Alain Schlesser
+ * @link      https://iamnickdavis.com/
+ * @copyright 2019 Nick Davis
  */
 
-namespace MWPD\BasicScaffold\Infrastructure\Injector;
+namespace NickDavis\BasicScaffold\Infrastructure\Injector;
 
-use MWPD\BasicScaffold\Exception\FailedToMakeInstance;
-use MWPD\BasicScaffold\Infrastructure\Injector;
-use MWPD\BasicScaffold\Infrastructure\Instantiator;
+use NickDavis\BasicScaffold\Exception\FailedToMakeInstance;
+use NickDavis\BasicScaffold\Infrastructure\Injector;
+use NickDavis\BasicScaffold\Infrastructure\Instantiator;
 use ReflectionClass;
 use ReflectionNamedType;
 use ReflectionParameter;
