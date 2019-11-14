@@ -51,10 +51,9 @@ final class BasicScaffoldPlugin extends ServiceBasedPlugin {
 	 */
 	protected function get_service_classes(): array {
 		return [
-			self::SAMPLE_BACKEND_SERVICE_ID => SampleSubsystem\SampleBackendService::class,
-			self::SAMPLE_LOOP_SERVICE_ID    => SampleSubsystem\SampleLoopService::class,
-
 			// Add your service definitions here.
+//			self::SAMPLE_BACKEND_SERVICE_ID => SampleSubsystem\SampleBackendService::class,
+//			self::SAMPLE_LOOP_SERVICE_ID    => SampleSubsystem\SampleLoopService::class,
 		];
 	}
 
@@ -166,6 +165,6 @@ final class BasicScaffoldPlugin extends ServiceBasedPlugin {
 	 * service when talking to the service container.
 	 */
 	public const VIEW_FACTORY_ID           = self::SERVICE_PREFIX . 'view-factory';
-	public const SAMPLE_BACKEND_SERVICE_ID = self::SERVICE_PREFIX . 'sample-subsystem.sample-backend-service';
-	public const SAMPLE_LOOP_SERVICE_ID    = self::SERVICE_PREFIX . 'sample-subsystem.sample-loop-service';
+//	public const SAMPLE_BACKEND_SERVICE_ID = self::SERVICE_PREFIX . 'sample-subsystem.sample-backend-service';
+//	public const SAMPLE_LOOP_SERVICE_ID    = self::SERVICE_PREFIX . 'sample-subsystem.sample-loop-service';
 }
