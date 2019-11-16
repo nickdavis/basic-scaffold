@@ -15,12 +15,12 @@
  * @wordpress-plugin
  * Plugin Name:  Basic Scaffold
  * Plugin URI:   https://iamnickdavis.com/
- * Description:  Basic plugin scaffold,
+ * Description:  Basic scaffold for a WordPress plugin.
  * Version:      0.1.0
  * Requires PHP: 7.2
  * Author:       Nick Davis <nick@iamnickdavis.com>
- * Author URI:   https://www.alainschlesser.com/
- * Text Domain:  nd-basic-scaffold
+ * Author URI:   https://iamnickdavis.com/
+ * Text Domain:  basic-scaffold
  * Domain Path:  /languages
  * License:      MIT
  * License URI:  https://opensource.org/licenses/MIT

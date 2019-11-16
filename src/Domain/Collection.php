@@ -26,6 +26,11 @@ use IteratorAggregate;
  * position unless you explicitly positioned it before. Prefer iteration with
  * external iterators.
  *
+ * (Directly taken from the following GitHub URL. Should probably be brought in via
+ * Composer in the long run - Nick Davis, 16 Nov 2019)
+ *
+ * @url https://github.com/doctrine/collections/blob/master/lib/Doctrine/Common/Collections/Collection.php
+ *
  * @psalm-template TKey of array-key
  * @psalm-template T
  * @template-extends IteratorAggregate<TKey, T>

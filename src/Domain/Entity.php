@@ -1,12 +1,12 @@
 <?php declare( strict_types=1 );
 
 /**
- * Test Bank Plugin.
+ * Basic Scaffold.
  *
  * @package   NickDavis\BasicScaffold
  * @author    Nick Davis <nick@iamnickdavis.com>
  * @license   MIT
- * @link      https://cmaexamacademy.com
+ * @link      https://iamnickdavis.com/
  * @copyright 2019 Nick Davis
  */
 
@@ -15,7 +15,7 @@ namespace NickDavis\BasicScaffold;
 /**
  * Interface Entity.
  *
- * @package nickdavis/cma-testbank
+ * @package nickdavis/basic-scaffold
  */
 interface Entity {
 
@@ -24,5 +24,5 @@ interface Entity {
 	 *
 	 * @return int Entity ID.
 	 */
-	public function get_ID();
+	public function get_id();
 }
