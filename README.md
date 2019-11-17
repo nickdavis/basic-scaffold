@@ -4,6 +4,8 @@ WordPress plugin framework forked from Alain Schlesser's excellent [Basic Scaffo
 
 ## Quick Start
 
+### Renaming
+
 In order to use the framework, you'll probably want to rename the following:
 
 1. Plugin folder
@@ -16,8 +18,12 @@ In order to use the framework, you'll probably want to rename the following:
 8. Author email (nick@iamnickdavis.com)
 9. Author website (iamnickdavis.com)
 10. Title and description in `composer.json`
-11. Plugin Name, Description and Text Domain in (the formerly known as) `basic-scaffold.php` file
+11. Plugin Name, Description and Text Domain in the file formerly known as `basic-scaffold.php`
 12. Rename HOOK_PREFIX and SERVICE_PREFIX (nick-davis.basic-scaffold) in the file formerly known as `BasicScaffold.php`
+
+### README.md
+
+Update the `README.md` file.
 
 ## Thanks
 
