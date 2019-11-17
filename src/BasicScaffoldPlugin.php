@@ -155,8 +155,8 @@ final class BasicScaffoldPlugin extends ServiceBasedPlugin {
 	 * These are provided so that if multiple plugins use the same boilerplate
 	 * code, there hooks and service identifiers are scoped and don't clash.
 	 */
-	protected const HOOK_PREFIX    = 'nd.basic_scaffold.';
-	protected const SERVICE_PREFIX = 'nd.basic_scaffold.';
+	protected const HOOK_PREFIX    = 'nick-davis.basic-scaffold.';
+	protected const SERVICE_PREFIX = 'nick-davis.basic-scaffold.';
 
 	/*
 	 * Service identifiers we know about.
