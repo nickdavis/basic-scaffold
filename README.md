@@ -15,7 +15,7 @@ In order to use the framework, you'll probably want to rename the following:
 5. `BasicScaffoldPlugin.php` / `BasicScaffoldPluginFactory.php` files (and classes) in src and `BasicScaffoldException.php` file (and class) in src/Exception
 6. Plugin header name (Basic Scaffold)
 7. Author name (Nick Davis)
-8. Author email (nick@iamnickdavis.com)
+8. Author email
 9. Author website (iamnickdavis.com)
 10. Title and description in `composer.json`
 11. Plugin Name, Description and Text Domain in the file formerly known as `basic-scaffold.php`
